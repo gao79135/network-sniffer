@@ -393,6 +393,6 @@ if __name__ == '__main__':
     ui = Sniffer()                              # ui是你创建的ui类的实例化对象
     ui.setupUi(MainWindow)                      # 执行类中的setupUi方法，方法的参数是第二步中创建的QMainWindow
     # TODO
-    MainWindow.setWindowTitle("网络嗅探器")  # 设置qt程序标题
+    MainWindow.setWindowTitle("网络嗅探器")       # 设置qt程序标题
     MainWindow.show()                           # 执行QMainWindow的show()方法，显示这个QMainWindow
     app.exec()                                  # 使用exit()或者点击关闭按钮退出QApplication
